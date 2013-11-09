@@ -106,3 +106,5 @@ BOARD_SEPOLICY_UNION += \
 	surfaceflinger.te \
 	system.te \
 	zygote.te
+
+TARGET_RUNNING_WITHOUT_SYNC_FRAMEWORK := true
